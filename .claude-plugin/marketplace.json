@@ -25,10 +25,10 @@
         "guided-coder"
       ],
       "skills": [
-        "./skills/dtu-assess/SKILL.md",
-        "./skills/dtu-code/SKILL.md",
-        "./skills/dtu-discuss/SKILL.md",
-        "./skills/dtu-review/SKILL.md"
+        "./skills/dtu-assess",
+        "./skills/dtu-code",
+        "./skills/dtu-discuss",
+        "./skills/dtu-review"
       ]
     },
     {
@@ -42,7 +42,7 @@
         "material-condense"
       ],
       "skills": [
-        "./skills/dtu-create/SKILL.md"
+        "./skills/dtu-create"
       ]
     }
   ]
