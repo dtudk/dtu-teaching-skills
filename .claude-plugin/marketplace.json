@@ -15,7 +15,7 @@
       "name": "students",
       "source": "./students",
       "description": "Student plugins, basic skills for interacting with the AI in a guided teaching environment.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "license": "MIT",
       "keywords": [
         "dtudk",
@@ -35,7 +35,7 @@
       "name": "teachers",
       "source": "./teachers",
       "description": "Teachers plugins, required to condense course material, and otherwise teaching aids.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "license": "MIT",
       "keywords": [
         "dtudk",
