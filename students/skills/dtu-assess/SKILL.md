@@ -1,9 +1,7 @@
 ---
 name: dtu-assess
 version: 1.0.0
-description: Comprehensive agentic self-assessment and learning advisor. Runs a quiz
-covering the different week schedules, and produces generic skill profile with guidance on
-understanding gaps and where they can extend their knowledge for the course. Use when asked to "assess my level", "take the quiz", "find my level", "where should I start", "what should I learn next", "check my skills", "skill check", or "level up".
+description: Comprehensive agentic self-assessment and learning advisor. Runs a quiz covering the different week schedules, and produces generic skill profile with guidance on understanding gaps and where they can extend their knowledge for the course. Use when asked to "assess my level", "take the quiz", "find my level", "where should I start", "what should I learn next", "check my skills", "skill check", or "level up".
 inspired-by: github.com/luongnv89/claude-howto.git
 argument-hint: [assess-dir]
 arguments: directory
