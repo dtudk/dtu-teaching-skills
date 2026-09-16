@@ -1,0 +1,16 @@
+{
+  "name": "teachers",
+  "version": "0.1.1",
+  "description": "Teachers plugins, required to condense course material, and otherwise teaching aids.",
+  "keywords": [
+    "dtudk",
+    "guided-teaching",
+    "learn",
+    "teach",
+    "assessment",
+    "coteacher",
+    "skills"
+  ],
+  "homepage": "https://github.com/dtudk/dtu-teaching-skills",
+  "license": "MIT"
+}

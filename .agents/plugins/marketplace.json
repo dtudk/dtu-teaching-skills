@@ -1,0 +1,38 @@
+{
+  "name": "dtu-teaching-skills",
+  "interface": {
+    "displayName": "DTU Teaching Skills"
+  },
+  "plugins": [
+    {
+      "name": "students",
+      "version": "0.1.1",
+      "description": "Student plugins, basic skills for interacting with the AI in a guided teaching environment.",
+      "source": {
+        "source": "local",
+        "path": "./students"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education",
+      "license": "MIT"
+    },
+    {
+      "name": "teachers",
+      "version": "0.1.1",
+      "description": "Teachers plugins, required to condense course material, and otherwise teaching aids.",
+      "source": {
+        "source": "local",
+        "path": "./teachers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education",
+      "license": "MIT"
+    }
+  ]
+}

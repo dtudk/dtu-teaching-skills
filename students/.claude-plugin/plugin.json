@@ -1,0 +1,17 @@
+{
+  "name": "students",
+  "version": "0.1.1",
+  "description": "Student plugins, basic skills for interacting with the AI in a guided teaching environment.",
+  "keywords": [
+    "dtudk",
+    "guided-teaching",
+    "learn",
+    "teach",
+    "assessment",
+    "coteacher",
+    "guided-coder",
+    "skills"
+  ],
+  "homepage": "https://github.com/dtudk/dtu-teaching-skills",
+  "license": "MIT"
+}

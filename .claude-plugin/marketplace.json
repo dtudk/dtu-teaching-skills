@@ -1,49 +1,13 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "dtu-teaching-skills",
+  "description": "Skills for students and teachers at teaching environments @ DTU.",
   "owner": {
     "name": "dtudk",
     "url": "https://github.com/dtudk/dtu-teaching-skills"
   },
-  "version": "1.0.0",
-  "description": "Skills for students and teachers at DTU. Guided teacher.",
-  "author": {
-    "name": "dtudk",
-    "email": "mycode@dtu.dk"
-  },
   "plugins": [
-    {
-      "name": "students",
-      "source": "./students",
-      "description": "Student plugins, basic skills for interacting with the AI in a guided teaching environment.",
-      "version": "0.1.1",
-      "license": "MIT",
-      "keywords": [
-        "dtudk",
-        "guided-teaching",
-        "assessment",
-        "coteacher",
-        "guided-coder"
-      ],
-      "skills": [
-        "./skills/dtu-assess",
-        "./skills/dtu-code",
-        "./skills/dtu-discuss",
-        "./skills/dtu-review"
-      ]
-    },
-    {
-      "name": "teachers",
-      "source": "./teachers",
-      "description": "Teachers plugins, required to condense course material, and otherwise teaching aids.",
-      "version": "0.1.1",
-      "license": "MIT",
-      "keywords": [
-        "dtudk",
-        "material-condense"
-      ],
-      "skills": [
-        "./skills/dtu-create"
-      ]
-    }
+    {"name": "students", "source": "./students"},
+    {"name": "teachers", "source": "./teachers"}
   ]
 }
