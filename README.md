@@ -29,9 +29,9 @@ flowchart TD
     B --> C["Add a WeekXX/ folder per week (01-13)"]
     C --> D["Add material<br/>WeekXX/Lectures/*.pdf<br/>WeekXX/Labs/ exercises"]
     D --> E{"Need to steer<br/>what is read?"}
-    E -- yes --> F["Add WeekXX/INDEX.md (files to read/omit)<br/>and/or WeekXX/README.md (week context)"]
+    E -- yes --> F["Add WeekXX/INDEX.md (AI instruction)<br/>and/or WeekXX/README.md (week context)"]
     E -- no --> G
-    F --> G["Install the teachers plugin<br/>and run /dtu-create WeekXX"]
+    F --> G["Install 'teachers' plugin<br/>and run /dtu-create WeekXX"]
     G --> H["Agent proposes: prior-knowledge files,<br/>content files and output file"]
     H --> I{"Teacher accepts<br/>the plan?"}
     I -- no, adjust --> H
@@ -42,8 +42,6 @@ flowchart TD
     K -- yes --> M{"More weeks?"}
     M -- "yes, next week" --> D
     M -- no --> N[Commit and share the repository with students]
-    N --> O["Students install the students plugin<br/>/dtu-assess, /dtu-discuss, /dtu-code, /dtu-review"]
-    O --> P["/dtu-assess writes WeekXX/AI_ASSESSMENT_YY.md<br/>used by the other student skills"]
 ```
 
 
