@@ -1,7 +1,22 @@
-# Teaching skills for use for DTU students
+# Course specific chatbot skills
 
-A (hopefully) course agnostic teaching guide that
-helps students use AI in a seamless and guided fashion.
+Using Generative AI for course-specific chatbot creation. Hopefully course agnostic
+teaching guide.
+
+Minimal friction and ease of adoption is *key*.
+
+## Students
+
+The student interactions with this chatbot will focus details on understanding, it will
+provide guidance and *no* answers.
+Interaction happens through skills and progressively helps them understand course material
+within the learning objectives.
+
+## Teachers
+
+Creating and condensing material to be used as guard rails for the student interaction.
+Reduces token utilization by shipping condensed material.
+
 
 
 ## Installation
