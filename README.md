@@ -1,21 +1,25 @@
 # Course specific chatbot skills
 
-Using Generative AI for course-specific chatbot creation. Hopefully course agnostic
-teaching guide.
-
-Minimal friction and ease of adoption is *key*.
+Turn any course into an AI tutor that guides students without giving away answers.
+Teachers condense their material once; students get a course-aware assistant that
+follows the syllabus and learning objectives.
+Course agnostic, and built for minimal friction: install a plugin, point it at a
+course repository, and start.
 
 ## Students
 
-The student interactions with this chatbot will focus details on understanding, it will
-provide guidance and *no* answers.
-Interaction happens through skills and progressively helps them understand course material
-within the learning objectives.
+A study companion that teaches instead of solving.
+General AI assistants hand out answers and skip the learning; these skills guide you
+with questions, hints and feedback until *you* understand the material.
+Assess where you stand, discuss lectures, get coached through exercises and have your
+code reviewed, all scoped to your course's learning objectives.
 
 ## Teachers
 
-Creating and condensing material to be used as guard rails for the student interaction.
-Reduces token utilization by shipping condensed material.
+Turn your course material into guard rails for the student chatbot.
+Condense each week's lectures and exercises into a short, reviewable summary of learning
+objectives, so the student skills stay on-syllabus, match the course's progression and
+use far fewer tokens than reading the raw material.
 
 
 
