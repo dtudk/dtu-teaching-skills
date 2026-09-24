@@ -13,6 +13,10 @@ claude plugin marketplace add dtudk/dtu-teaching-skills
 claude plugin install students@dtu-teaching-skills
 #claude plugin install teachers@dtu-teaching-skills
 ```
+Continuous updating
+```bash
+claude plugin marketplace update dtu-teaching-skills
+```
 
 
 ## Workflows
